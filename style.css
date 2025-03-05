@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4D04E;
+    min-height: 100vh;
+}
+
+/* ================= links ================= */
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:focus {
+    color: #F4D04E;
+}
+
+@media (min-width: 1024px) {
+    a:hover {
+        color: #F4D04E;
+    }
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* ================= .card ================= */
+.card {
+    max-width: 329px;
+    background-color: white;
+    border: 1px solid #111;
+    box-shadow: 8px 8px 0px 0px #000;
+    border-radius: 20px;
+    padding: 24px;
+    margin: auto;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 384px;
+    }
+}
+
+.illustration {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+/* ================= .card-text ================= */
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-content: flex-start;
+}
+
+/* ================= .card-text typography ================= */
+
+.card {
+    color: #111;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.publish-date,
+.tag {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+
+    .publish-date,
+    .tag {
+        font-size: 0.875rem;
+    }
+}
+
+.text,
+.author-info {
+    font-size: 0.875rem;
+}
+
+.publish-date,
+.text {
+    font-weight: 500;
+}
+
+.tag {
+    font-weight: 800;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    padding: 4px 12px;
+    align-self: flex-start;
+}
+
+.text {
+    color: #6B6B6B;
+}
+
+@media (min-width: 1024px) {
+    .text {
+        font-size: 1rem;
+    }
+}
+
+.author-info {
+    font-weight: 800;
+}
+
+
+/* ================= author-info ================= */
+
+.author-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.author-info img {
+    width: 32px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* ================= footer ================= */
+
+footer {
+    font-size: 0.6rem;
+    text-align: center;
+    color: white;
+    background-color: #302d2c;
+    width: 100%;
+    padding: 0.25rem;
+}
